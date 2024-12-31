@@ -81,8 +81,8 @@ body{
 
 /*second_banner*/
 .second_banner{
-    margin-top: 140px ;
-    margin-bottom: 140px !important;
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
 }
 .second_banner h2{
     font-size: 50px !important;
@@ -101,35 +101,44 @@ body{
 }
 .second_banner .video_outline{
     position: relative;
-    
+    width: 100%;
+    top: 20px;
   
 }
-.second_banner .second_video{
+.second_banner .text-block {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    height: 475px;
-    width: 500px;
-    padding-left: 108px;
-}
+    bottom: 40px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    
+  }
+    
+
 .second_banner img{
     
-    padding-top: 338px;
+    padding-top: 200px;
 }
 
 /*section_as*/
-.section_as .second_video{
+.section_as .text-block {
     position: absolute;
-    top: 40%;
-    left: 30%;
-    transform: translate(-40% , -30%);
-    height: 200px;
-    width: 360px;
-}
+    bottom: 40px;
+    
+    background-color: black;
+    color: white;
+    
+  }
 .section_as .video_outline{
     position: relative;
+    
+    
  
+}
+.section_as img{
+    padding-top: 300px;
+    left: 20px;
+    right: 20px;
 }
 /*title_hear*/
 .title_hear{
@@ -312,8 +321,416 @@ body{
     font-size: 30px;
     
 }
-.fotter_section .f_icone{
-    background-color: #343434 !important;
+
+
+
+
+/*responsive*/
+
+
+/* Base Styles */
+body {
+    font-family: "Poppins", serif !important;
 }
+.container {
+    max-width: 1160px !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #daac00 !important;
+    height: 120px !important;
+}
+.navbar-nav {
+    padding-left: 35px !important;
+    padding-right: 26px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 22px !important;
+    padding-left: 22px !important;
+}
+
+/* Nav Section */
+.nav_section ul li a {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 300px !important;
+}
+
+.nav_section .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.nav_section .form-control {
+    height: 50px !important;
+    color: white !important;
+}
+
+.nav_section .btn {
+    width: 70px;
+}
+
+/* First Banner */
+.first_banner {
+    color: white;
+    background-color: #fcc302;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+.first_banner h1 {
+    font-size: 55px !important;
+    font-weight: 400px !important;
+    padding-bottom: 50px;
+    margin-bottom: 0px !important;
+}
+.first_banner p {
+    font-size: 25px !important;
+    padding-bottom: 50px !important;
+    margin-bottom: 0px !important;
+}
+.first_banner img {
+    padding-left: 100px !important;
+}
+.first_banner .btn {
+    color: white;
+    border-color: white;
+    font-size: 20px !important;
+}
+
+/* Second Banner */
+.second_banner {
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+.second_banner h2 {
+    font-size: 50px !important;
+    font-weight: 400px !important;
+    margin-bottom: 45px !important;
+}
+.second_banner p {
+    font-size: 30px !important;
+    line-height: 36px;
+    margin-bottom: 45px !important;
+}
+.second_banner .btn {
+    color: white;
+    font-size: 20px;
+    padding: 15px !important;
+}
+.second_banner .video_outline {
+    position: relative;
+    width: 100%;
+    top: 20px;
+}
+.second_banner .text-block {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: black;
+    color: white;
+}
+.second_banner img {
+    padding-top: 200px;
+}
+
+/* Section As */
+.section_as .text-block {
+    position: absolute;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+}
+.section_as .video_outline {
+    position: relative;
+}
+.section_as img {
+    padding-top: 300px;
+    left: 20px;
+    right: 20px;
+}
+
+/* Title Header */
+.title_hear {
+    background-color: #fcc302;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.title_hear h1 {
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 50px !important;
+}
+.title_hear P {
+    font-size: 32px !important;
+    margin-bottom: 90px !important;
+}
+.title_hear .Veterinarian h4 {
+    font-size: 36px !important;
+    padding-top: 45px !important;
+    padding-bottom: 15px !important;
+}
+.title_hear .Veterinarian p {
+    font-size: 25px !important;
+}
+
+/* Section As */
+.section_as {
+    padding-top: 140px;
+    padding-bottom: 140px !important;
+}
+.section_as h2 {
+    font-size: 50px !important;
+    margin-bottom: 40px !important;
+}
+.section_as p {
+    font-size: 28px !important;
+    margin-bottom: 35px !important;
+}
+.section_as .btn {
+    color: white !important;
+    padding: 15px !important;
+}
+
+/* Section Cat */
+.section_cat {
+    background-color: #fcc302;
+    padding-top: 110px !important;
+    padding-bottom: 110px !important;
+}
+.section_cat h1 {
+    font-size: 75px ;
+    margin-bottom: 45px;
+}
+.section_cat p {
+    font-size: 32px;
+    margin-bottom: 95px;
+}
+.section_cat h4 {
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.section_cat .btn {
+    font-size: 25px;
+    color: white;
+    padding: 5px 27px !important;
+    border-radius: 27px !important;
+}
+
+/* The Vetcare */
+.the_vetcare {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.the_vetcare h1 {
+    font-size: 75px ;
+    color: #313243;
+    margin-bottom: 55px !important;
+}
+.the_vetcare p {
+    font-size: 32px !important;
+    margin-bottom: 100px;
+}
+.the_vetcare .Veterinarian h4 {
+    font-size: 30px ;
+    color: #313243;
+    padding-top: 35px;
+    font-weight: 500px;
+}
+.the_vetcare .Veterinarian  p {
+    font-size: 25px;
+    color: #313243;
+    margin-bottom: 30px;
+}
+.the_vetcare .Veterinarian .link_icon {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Happy Section */
+.happy_section h4 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+.happy_section h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Recent Post */
+.recent_post {
+    padding-top: 140px;
+    margin-bottom: 140px;
+}
+.recent_post h2 {
+    font-size: 75px ;
+    color: #313243;
+    margin-bottom: 50px;
+}
+.recent_post .available {
+    font-size: 32px;
+    color: #313243;
+    margin-bottom: 100px !important;
+}
+.recent_post h3 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 400px;
+}
+.recent_post h5 {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.recent_post p {
+    font-size: 16px;
+    color: #313243;
+}
+.recent_post a {
+    font-size: 20px;
+}
+
+/* Footer */
+.fotter_section {
+    background-color: #343434;
+    padding-top: 150px;
+    padding-bottom: 150px !important;
+}
+.fotter_section a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.fotter_section h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px !important;
+}
+.fotter_section ul {
+    line-height: 35px ;
+}
+.fotter_section p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.fotter_section form {
+    width: 500px;
+    height: 85px;
+    margin-bottom: 40px;
+    color: white;
+}
+.fotter_section .btn {
+    width: 140px;
+}
+.fotter_section .form-control {
+    font-size: 30px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For Tablets (Screen width <= 1024px) */
+@media (max-width: 1024px) {
+    .navbar {
+        height: 100px !important;
+    }
+    .first_banner h1 {
+        font-size: 45px !important;
+    }
+    .first_banner p {
+        font-size: 20px !important;
+    }
+    .second_banner h2 {
+        font-size: 40px !important;
+    }
+    .second_banner p {
+        font-size: 25px !important;
+    }
+    .title_hear h1 {
+        font-size: 60px !important;
+    }
+    .section_as h2 {
+        font-size: 40px !important;
+    }
+    .section_cat h1 {
+        font-size: 60px !important;
+    }
+    .the_vetcare h1 {
+        font-size: 60px !important;
+    }
+    .fotter_section h3 {
+        font-size: 30px !important;
+    }
+}
+
+/* For Mobile Phones (Screen width <= 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        height: 80px !important;
+    }
+    .first_banner h1 {
+        font-size: 40px !important;
+    }
+    .first_banner p {
+        font-size: 18px !important;
+    }
+    .second_banner h2 {
+        font-size: 35px !important;
+    }
+    .second_banner p {
+        font-size: 20px !important;
+    }
+    .section_as h2 {
+        font-size: 35px !important;
+    }
+    .section_cat h1 {
+        font-size: 50px !important;
+    }
+    .the_vetcare h1 {
+        font-size: 50px !important;
+    }
+    .fotter_section h3 {
+        font-size: 28px !important;
+    }
+    .fotter_section .form-control {
+        font-size: 25px !important;
+    }
+}
+
+/* For Extra Small Mobile Phones (Screen width <= 480px) */
+@media (max-width: 480px) {
+    .navbar {
+        height: 70px !important;
+    }
+    .first_banner h1 {
+        font-size: 35px !important;
+    }
+    .first_banner p {
+        font-size: 16px !important;
+    }
+    .second_banner h2 {
+        font-size: 30px !important;
+    }
+    .second_banner p {
+        font-size: 18px !important;
+    }
+    .section_as h2 {
+        font-size: 30px !important;
+    }
+    .section_cat h1 {
+        font-size: 45px !important;
+    }
+    .the_vetcare h1 {
+        font-size: 45px !important;
+    }
+    .fotter_section h3 {
+        font-size: 24px !important;
+    }
+    .fotter_section .form-control {
+        font-size: 22px !important;
+    }
+}
+
+
 
 
