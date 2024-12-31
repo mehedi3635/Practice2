@@ -1,0 +1,87 @@
+.navbar{
+    background-color: #daac00 !important;
+}
+
+.nav_section ul li a{
+    color: white !important;
+}
+.nav_section .form-control:focus {
+    
+    
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+
+/*first_banner*/
+.first_banner{
+    color: white;
+    background-color: #fcc302;
+}
+.button{
+    color: white !important;
+}
+.first_banner button:hover{
+    background-color: rgb(0, 195, 255) !important;
+   
+
+}
+
+/*second_banner*/
+.second_banner .video_outline{
+    position: relative;
+    
+    left: 150px;
+}
+.second_banner .second_video{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40% , -50%);
+    height: 200px;
+    width: 360px;
+}
+
+/*section_as*/
+.section_as .second_video{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-40% , -30%);
+    height: 200px;
+    width: 360px;
+}
+.section_as .video_outline{
+    position: relative;
+ 
+}
+/*title_hear*/
+.title_hear{
+    background-color: #fcc302;
+}
+
+/*section_cat*/
+.section_cat{
+    background-color: #fcc302;
+}
+
+/*footer*/
+.fotter_section{
+    background-color: #343434;
+
+}
+.fotter_section a{
+    text-decoration: none;
+    color: white;
+}
+.fotter_section h3{
+    color: white;
+}
+.fotter_section p{
+    color: white;
+}
+.fotter_section form{
+    width: 50%;
+}
+
+
