@@ -1,6 +1,11 @@
 body{
     font-family: "Poppins", serif !important;
 }
+.container{
+    max-width: 1160px !important;
+}
+
+
 .navbar-nav{
     padding-left: 35px !important;
     padding-right: 26px !important;
@@ -172,25 +177,143 @@ body{
 /*section_cat*/
 .section_cat{
     background-color: #fcc302;
+    padding-top: 110px !important;
+    padding-bottom: 110px !important;
+
 }
+.section_cat h1{
+    font-size: 75px ;
+    margin-bottom: 45px;
+}
+.section_cat p{
+    font-size: 32px;
+    margin-bottom: 95px;
+}
+.section_cat h4{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.section_cat .btn{
+    font-size: 25px;
+    color: white;
+    padding: 5px 27px !important;
+    border-radius: 27px !important;
+}
+/*the_vetcare*/
+.the_vetcare{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.the_vetcare h1{
+    font-size: 75px ;
+    color: #313243;
+    margin-bottom: 55px !important;
+}
+.the_vetcare p{
+    font-size: 32px !important;
+    margin-bottom: 100px;
+}
+.the_vetcare .Veterinarian h4{
+    font-size: 30px ;
+    color: #313243;
+    padding-top: 35px;
+    font-weight: 500px;
+    
+}
+.the_vetcare .Veterinarian  p{
+    font-size: 25px;
+    color: #313243;
+    margin-bottom: 30px;
+}
+.the_vetcare .Veterinarian .link_icon{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*happy_section*/
+.happy_section h4{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.happy_section h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+/*recent_post*/
+.recent_post{
+    padding-top: 140px;
+    margin-bottom: 140px;
+}
+.recent_post h2{
+    font-size: 75px ;
+    color: #313243;
+    margin-bottom: 50px;
+}
+.recent_post .available{
+    font-size: 32px;
+    color: #313243;
+    margin-bottom: 100px !important;
+}
+.recent_post h3{
+    font-size: 25px;
+    color: #313243;
+    font-weight: 400px;
+}
+.recent_post h5{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.recent_post p{
+    font-size: 16px;
+    color: #313243;
+}
+.recent_post a{
+    font-size: 20px;
+}
+
 
 /*footer*/
 .fotter_section{
     background-color: #343434;
+    padding-top: 150px;
+    padding-bottom: 150px !important;
 
 }
 .fotter_section a{
     text-decoration: none;
     color: white;
+    font-size: 25px;
 }
 .fotter_section h3{
     color: white;
+    font-size: 35px;
+    margin-bottom: 30px !important;
+}
+.fotter_section ul {
+    line-height: 35px ;
 }
 .fotter_section p{
     color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 .fotter_section form{
-    width: 50%;
+    width: 500px;
+    height: 85px;
+    margin-bottom: 40px;
+    color: white;
+}
+.fotter_section .btn{
+    width: 140px;
+}
+.fotter_section .form-control{
+    font-size: 30px;
+    
+}
+.fotter_section .f_icone{
+    background-color: #343434 !important;
 }
 
 
